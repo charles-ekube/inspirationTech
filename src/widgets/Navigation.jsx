@@ -2,27 +2,25 @@ import React from "react";
 import "../assets/styles/WidgetStyles.css";
 import { FiMenu } from "react-icons/fi";
 import { useMediaQuery } from "react-responsive";
+// import { dropdown } from "../assets/images/Tabs/dropdown.png";
+import CustomButton from "../utils/CustomButton";
 
 const Navigation = () => {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
-  });
-  const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
-  const isPortrait = useMediaQuery({ query: "(orientation: portrait)" });
-  const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
   return (
     <>
       <nav className={"navContainer"}>
-        <div className={"logoContainer"}>
-          <p>Logo</p>
-        </div>
+        <ul>
+          <li>Home</li>
+          <li>Training</li>
+          <li>Contact</li>
+          <li>FAQs</li>
+        </ul>
 
-        <div>
-          {isBigScreen && isDesktopOrLaptop && <p>fvnjkfknv</p>}
-          {isTabletOrMobile && <FiMenu size={26} />}
+        <div className={"logoContainer"}>
+        <CustomButton/>       
         </div>
       </nav>
+
     </>
   );
 };

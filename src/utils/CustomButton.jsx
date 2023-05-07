@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react'
+import "../assets/styles/Utils.css"
 
-const CustomButton = () => {
-  return <button></button>;
-};
+ function  Enrol() {
+  return (
+   <>
+    <button className='CustomButton'>Enrol Now</button>
+   
+   </>
+  )
+}
 
-export default CustomButton;
+export default Enrol;
