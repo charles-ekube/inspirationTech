@@ -2,6 +2,7 @@ import React from "react";
 import CustomButton from "../../utils/CustomButton";
 import "./Hero.css";
 import Notify from "../../utils/Notify";
+import Arrowside from "../images/arrowSide.png";
 
 const Hero = () => {
 	return (
@@ -36,8 +37,9 @@ const Hero = () => {
 							skills needed <br />
 							to create user experiences for products or digital properties.
 						</h6>
-						<div>
+						<div className="slide">
 							<h4>Enroll Here</h4>
+							{/* <img src={Arrowside} alt=""	/> */}
 						</div>
 					</div>
 
@@ -49,8 +51,9 @@ const Hero = () => {
 							skills needed <br />
 							to create user experiences for products or digital properties.
 						</h6>
-						<div>
+						<div className="slide">
 							<h4>Enroll Here</h4>
+							{/* <img src={Arrowside}  alt=""/> */}
 						</div>
 					</div>
 				</div>
