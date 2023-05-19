@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo() {
   return (
-    <button className='CustomButtonUp'>Logo</button>
+    <button className='CustomButton'>Logo</button>
   )
 }
 

@@ -5,19 +5,14 @@
 }
 
 .upHero h1 {
-    /* border: 2px solid red; */
     width: 700px;
     font-family: 'Monument Extended', sans-serif;
     font-stretch:ultra-expanded;
-    /* letter-spacing: -2px; */
-    /* font-family: Monument Extended; */
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: center;
-
-
 }
 
 .upHero h5{
@@ -37,8 +32,6 @@
     margin-top: 30px;
     font-size: 11px;
     font-family: 'Red Hat Display', sans-serif;
-
-    /* letter-spacing: 1px; */
 }
 
 .form {
@@ -51,16 +44,14 @@
 }
 
 .form input {
-    min-width: 360px;
+    min-width: 350px;
     border-radius: 4px;
-    padding: 12px;
+    padding: 15px;
     background: #EEEEEE;
     font-size: 15px;
     border: none;
-    color: red 
-   
+    /* color: red  */
 } 
-
 
 .design {
     background-color: #0E0E0E;
@@ -84,7 +75,6 @@
   -moz-text-fill-color: transparent;
 }
 
-
 .downHero {
     display: flex;
     flex-direction: column;
@@ -104,12 +94,13 @@
     line-height: 42px;
     font-family: 'Monument Extended', sans-serif;
 }
+
 .cards {
     /* border: 2px solid red; */
-    width: 68%;
+    width: 65%;
     height: 255px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 10px;
     margin-top: 15px;
    
@@ -122,9 +113,9 @@
 }
 .trackImg1 {
     height: 150px;
-    width: 350px;
+    width: 400px;
     background-image: url(/src/assets/images/product.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -132,13 +123,12 @@
 
 .trackImg2 {
     height: 150px;
-    width: 350px;
+    width: 400px;
     background-image: url(/src/assets/images/dev.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-
 }
 
 .trackCard h3 {
@@ -146,9 +136,7 @@
     font-weight: 900;
     color: #0E0E0E;
     margin-left: 15px;
-    font-family: 'Monument Extended', sans-serif;
-
-    
+    font-family: 'Monument Extended', sans-serif;    
 }
 
 .trackCard h6{
@@ -172,18 +160,93 @@
     font-family: 'Red Hat Display', sans-serif;
 
 }
+/* //////////////////////////Facilitator//////////// */
 
+@media only screen and (max-width: 932px) {
+    .upHero h1 {
+        /* border: 2px solid red; */
+        width: 700px;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 32px; 
+        text-align: center;
+        margin-top: 20px;
+    }
 
-/* .slide {
-    width: 100px;
-    margin-top: 18px;
-    border: 2px solid red;
-    display: flex;
-    align-items: center;
+    .upHero h5 {
+        /* color: red; */
+        font-size: 12px;
+    }
 
-} */
+    .form {
+        /* border: 1px  solid green; */
+        min-width: 350px;
+    }
+    .form input {
+        min-width: 360px;
+        border-radius: 4px;
+        padding: 15px;
+        background: #EEEEEE;
+        font-size: 12px;
+        border: none;
+        /* color: blue;  */
+    } 
 
-/* .slide img {
-    width: 10px;
-    background-color: #FF0F7B;
-} */
+    .form button {
+        /* border: 2px solid greenyellow; */
+    }
+
+    .cards {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 290px;
+    }
+
+    .trackImg1 {
+        width: 360px;
+    }
+
+    .trackImg2 {
+        width: 360px;
+    }
+
+    .trackCard h3 {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .trackCard h6 {
+        font-size: 8px;
+    }
+
+    .slide h4 {
+        font-size: 12px;
+        font-weight: 2000;
+    }
+
+    @media only screen and (max-width: 425px){
+        .upHero h1 {
+            border: 2px solid red;
+            width: 420px;
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 32px; 
+            /* text-align: center; */
+            margin-top: 20px;
+        }
+
+        .upHero h5 {
+            width: 300px;
+            /* color: red; */
+            font-size: 12px;
+        }
+
+        .form {
+            /* display: flex; */
+            border: 1px solid rgba(71, 12, 12, 0.801);
+            /* min-width: 50px; */
+        }
+    
+    
+    }
+}

@@ -8,9 +8,11 @@ import instagram from "../assets/images/instagram.png";
 import youtube from "../assets/images/youtube.png";
 import FooterLogo from "../assets/styles/FooterLogo";
 
+
 export default function Footer() {
 	return (
 		<>
+{/* /////////////////////////////  preFoot  //////////////////////////// */}
 			<div className="preFoot">
 				<div className="text">
 					<h3>Collaborate and Partner with us</h3>

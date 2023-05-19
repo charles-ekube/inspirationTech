@@ -1,8 +1,10 @@
 import React from "react";
-import CustomButton from "../../utils/CustomButton";
+// import CustomButton from "../../utils/CustomButton";
 import "./Hero.css";
 import Notify from "../../utils/Notify";
-import Arrowside from "../images/arrowSide.png";
+import EmailBtn from "./EmailBtn";
+import Bobby from "../images/Bobby (1).png";
+// import Arrowside from "../images/arrowSide.png"
 
 const Hero = () => {
 	return (
@@ -10,7 +12,7 @@ const Hero = () => {
 			<div className="upHero">
 				<h1>
 					Learning the best part of <br />
-					<span className="design">Design</span> and{" "}
+					<span className="design">Design</span> and
 					<span className="development">Development</span>
 				</h1>
 				<h5>
@@ -21,7 +23,7 @@ const Hero = () => {
 				<h6>Get notified when we kick-off activities</h6>
 				<div className="form">
 					<input type="text" placeholder="Enter your email" className="formInput" />
-					<Notify />
+					<button className="Btn">Get Notified</button>
 				</div>
 			</div>
 
