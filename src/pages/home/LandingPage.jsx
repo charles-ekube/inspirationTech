@@ -20,9 +20,6 @@ const LandingPage = () => {
       <Hero />
       <Stacks open />
       <button onClick={openModal}>Open Modal</button>
-      <CourseInfoModal isOpen={isOpen} closeModal={closeModal}>
-        {}
-      </CourseInfoModal>
     </>
   );
 };
