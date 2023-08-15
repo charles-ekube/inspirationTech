@@ -7,6 +7,7 @@ import facebook from "../assets/images/facebook.png";
 import instagram from "../assets/images/instagram.png";
 import youtube from "../assets/images/youtube.png";
 import FooterLogo from "../assets/styles/FooterLogo";
+import "../assets/styles/WidgetStyles.css";
 
 
 export default function Footer() {
@@ -16,6 +17,7 @@ export default function Footer() {
 			<div className="preFoot">
 				<div className="text">
 					<h3>Collaborate and Partner with us</h3>
+					<div className="textText">
 					<h4>
 						By collaborating and partnering with our organizations in the tech industry,
 						we can build a stronger <br /> network, share knowledge and resources, and
@@ -29,6 +31,7 @@ export default function Footer() {
 						networking opportunities, and the potential for joint projects and <br />{" "}
 						initiatives.
 					</h4>
+					</div>
 				</div>
 
 				<img src={imaLap} alt="" />
@@ -42,8 +45,8 @@ export default function Footer() {
 						<div className="firstContent">
 						<h6>
 							No: 30a Eze Street, Uwani, <br />
-							Enugu State, Nigeria.
 						</h6>
+						<h6>Enugu State, Nigeria</h6>
 						<h6>Tel: +236 806 559 3093</h6>
 						<h6>Tel: +236 806 559 3093</h6>
 						<div className="socialMedia">
@@ -81,8 +84,9 @@ export default function Footer() {
 
 					<div className="fouth">
 						<p className="top">Company</p>
-						<div className="fouthContent">
-						<p>Collaborate/Partner <br /> with Us </p>
+						<div className="fourthContent">
+						<p>Collaborate/Partner </p>
+						<p>with Us</p>
 						<p>Admin</p>
 						</div>
 					</div>

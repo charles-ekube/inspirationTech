@@ -26,20 +26,21 @@
 
 .facilitorDetails h3, h4, h5  {
     margin-top: 4px;
+    /* color: red; */
 }
 
 .facilitorDetails .nickName{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 .facilitorDetails .name {
-    font: size 20px;
+    font: size 23px;
 }
 
 .facilitorDetails .track {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
 }
 

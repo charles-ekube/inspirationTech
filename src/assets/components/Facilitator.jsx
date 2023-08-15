@@ -4,6 +4,7 @@ import Deking from "../images/Deking.png";
 import Gilbert from "../images/Gilbert.png";
 import Jumie from "../images/Jumie.png";
 import "./Facilitator.css";
+import "../styles/Responsiveness.css"
 
 function Facilitator() {
 	return (
@@ -20,7 +21,7 @@ function Facilitator() {
 						<div className="facilitorDetails">
 							<h5 className="nickName">Bobby_the_creatr</h5>
 							<h3 className="name">Charles Ekube</h3>
-							<h4 className="track">SOFTWARE ENGINEER/TEAM LEAD/FRONTEND TUTOR</h4>
+							<h4 className="track">SOFTWARE ENGINEER/TEAM LEAD/ <br/>FRONTEND TUTOR</h4>
 						</div>
 					</div>
 
@@ -29,7 +30,7 @@ function Facilitator() {
 						<div className="facilitorDetails">
 							<h5 className="nickName">deking.uix</h5>
 							<h3 className="name">Appolos Kingsley</h3>
-							<h4 className="track">PRODUCT DESIGNER/ASSISTING TEAM LEAD/DESIGN TUTOR</h4>
+							<h4 className="track">PRODUCT DESIGNER/ASSISTING <br/> TEAM LEAD/DESIGN TUTOR</h4>
 						</div>
 					</div>
 
@@ -47,7 +48,7 @@ function Facilitator() {
 							<div className="facilitorDetails">
 								<h5 className="nickName">BabyTech</h5>
 								<h3 className="name">Ojumoola Akinyode</h3>
-								<h4 className="track">SOFTWARE ENGINEER/TEAM LEAD/FRONTEND TUTOR</h4>
+								<h4 className="track">SOFTWARE ENGINEER/TEAM LEAD/ <br/>FRONTEND TUTOR</h4>
 							</div>
 						</div>
 
