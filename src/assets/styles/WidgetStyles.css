@@ -1,241 +1,34 @@
 .navContainer {
-  /* border: 1px solid red; */
-  width: 100%;
-  padding: 28px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.CustomButton {
-  background-color: #0088a6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  font-weight: 600;
-  color: #FAFAFA;
-  border: none;
-  min-height: 40px;
-  cursor: pointer;
-  min-width: 100px;
-  font-size: 12px;
-  letter-spacing: 1.5px;
-  font-family: 'Red Hat Display', sans-serif;
-
-}
-
-/* /////////////////////////Nav////////////////// */
-
-#navbar {
-  /* width: 30%; */
-  display:flex;
-  list-style: none;
-  margin-left: 350px;
-  /* border: 1px solid yellow; */
-}
-
-li{
-  padding: 18px 15px;
-  cursor: pointer;
-   /* color: red; */
-}
-
-li a{
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 500;
-   color:#0E0E0E;
-   transition: 0.3s ease-in-out;
-}
-
-ul :hover,
-ul :active {
-  color: #0088A6;
-}
-
-li a :hover ::after,
-li a :active ::after{
-  content: " ";
-  width: 30px;
-  height: 2px;
-  /* color: red; */
-  background: #0088A6;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-
-}
-
-.dropdown {
-  font-size: 300px;
-  color: red;
-}
-
-.a {
-  visibility: hidden;
-}
-
-/* ////////////////////////pre-footer//////////////// */
- 
-.preFoot {
-  /* width: 100%; */
-  margin-top: 50px;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #0088A6;
-  /* border: 2px solid red; */
-  
-}
-
-
-.text {
-  width: 500px;
-  height: 210px;
-  margin-block: 15px;
-  margin-left: 45px;
-  /* margin-top: 5px; */
-  /* letter-spacing: 5px; */
-}
-
-.textText {
-  width: 400px;
-  /* border: 2px solid red; */
-}
-
-.text h3 {
-  color: #FAFAFA;
-  font-size: 20px;
-  font-weight: 450;
-  /* letter-spacing: -1px; */
-  font-family: 'Monument Extended', sans-serif;
-
-}
-
-.text h4 {
-  font-size: 15px;
-  margin-top: 15px;
-  color: #E0E0E0;
-  line-height: 12px;
-  font-weight: 500;
-  font-family: 'Red Hat Display', sans-serif;
-
-}
-
-
-.preFoot img {
-  width: 500px;
-  margin-right: 55px;
-  /* border: 1px solid red ; */
-}
-
-/* .......................// Footer //.................... */
-
-.footer {
-  background-color: #000000;
-  width: 100%;
-  /* height: 60%; */
-  margin-top: -33px;
-  position: absolute;
-  flex-direction: column;
-  /* border: 2px solid red; */
-  font-family: 'Red Hat Display', sans-serif;
-  
-}
-
-.footerContent {
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  margin: 4% ;
-  padding: 50px  ; 
-  /* border: 2px solid rgb(47, 179, 91); */
-  color:#EEEEEE;
-  font-size: 10px;
-  /* margin-bottom: 20px; */
-}
-
-.footerBtn {
-  background-color: #0088a6;
-  padding: 4px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  /* color: red; */
-  color: #fff;
+  box-shadow: 4px 4px 8px rgba(17, 16, 20, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+}
+
+.navContainer .mobileBtn {
+  background: inherit;
   border: none;
-  padding: 9px;
-   min-width: 145px; 
-  font-size: 15px;
-  margin-bottom: 25px;
-  font-family: 'Red Hat Display', sans-serif;
+  display: block;
 }
-
-.socialMedia img {
-  padding-inline-end: 5px;
-  width: 25px;
-  cursor: pointer;
-}
-
-.copywrite {
-  display: flex;
+.navContainer .webNavLinks {
+  display: none;
   align-items: center;
- 
-} 
-
-.copywrite p {
-  line-height: 50px;
-  font-size: 10px;
+  gap: 20px;
 }
 
-.top {
-  color:#EEEEEE;
-  font-size: 12px;
-  margin-bottom: 25px;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.firstContent h6{
-  margin-block-start: 8px;
-  font-size: 12px;
-}
-
-h6 span {
-  margin-top: 10px;
-  color: red;
-}
-
-.secondContent p, 
-.thirdContent p,
-.fourthContent p,
-.fifthContent p {
-  margin-block-start: 8px;
-  font-size: 12px;
-
-}
-.socialMedia {
-  margin-top: 8px;
-}
-
-.nav-btn {
-  /* width: 300px; */
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  outline: none;
-  visibility: hidden;
-  opacity: 0;
-  color: black;
-}
-
-.mobile {
-   display: none;
-}
-
-.mobile i  {
-  color: #000000;
-  /* border: 5px solid red; */
+@media screen and (min-width: 768px) {
+  .navContainer {
+    padding: 20px 80px;
+  }
+  .navContainer .mobileBtn {
+    display: none;
+  }
+  .navContainer .webNavLinks {
+    display: flex;
+  }
 }

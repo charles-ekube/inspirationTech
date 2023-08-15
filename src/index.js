@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assets/styles/homeStyles.css';
+import './assets/styles/widgetStyles.css';
+import './assets/styles/fontStyles.css';
+import './assets/styles/generalStyles.css';
+// import './assets/styles/utils.css';
+import './assets/styles/aboutStyles.css';
+import './assets/styles/contactStyles.css';
+import { BrowserRouter } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

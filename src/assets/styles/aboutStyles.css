@@ -1,0 +1,22 @@
+.aboutHero {
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1b1d61;
+}
+.aboutDetails {
+  padding: 40px 20px;
+}
+.aboutDetails p {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutHero {
+    padding: 100px;
+  }
+  .aboutDetails {
+    padding: 80px;
+  }
+}

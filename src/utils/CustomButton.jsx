@@ -1,14 +1,13 @@
-import React from 'react'
-import "../assets/styles/Utils.css"
+import React from "react";
 
- function  Enrol() {
+const Button = ({ text, onClick, className, ...otherProps }) => {
+  const combinedClassName = `customButton text semiBoldText f16 ${className}`.trim(); // Combine the general className and the passed className
+
   return (
-   <>
-    <button className='CustomButton'>Enroll
-     Now</button>
-   
-   </>
-  )
-}
+    <button className={combinedClassName} onClick={onClick} {...otherProps}>
+      {text}
+    </button>
+  );
+};
 
-export default Enrol;
+export default Button;
