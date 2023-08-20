@@ -1,0 +1,18 @@
+.Btn {
+        /* background-color: rgb(172, 35, 35); */
+        background-color: #0088a6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        font-weight: 600;
+        color: #FAFAFA;
+        border: none;
+        /* min-height: 40px; */
+        cursor: pointer;
+        /* min-width: 100px; */
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        padding: 16px;
+        font-family: 'Red Hat Display', sans-serif;
+}

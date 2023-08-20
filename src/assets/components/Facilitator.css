@@ -1,0 +1,47 @@
+.Facilitator  {
+    /* border: 2px solid purple; */
+    margin-top: 70px;
+    background-color: #FAFAFA;
+} 
+
+.Facilitator p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0E0E0E;
+    line-height: 30px;
+    font-family: 'Monument Extended', sans-serif;
+}
+
+.Imgcards {
+    display: flex;
+    padding: 30px;
+    margin-top: 25px;
+    color: #000000;
+}
+
+.card img{
+    width: 80%;
+}
+
+.facilitorDetails h3, h4, h5  {
+    margin-top: 4px;
+    /* color: red; */
+}
+
+.facilitorDetails .nickName{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.facilitorDetails .name {
+    font: size 23px;
+}
+
+.facilitorDetails .track {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+

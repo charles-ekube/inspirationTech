@@ -1,7 +1,8 @@
 import React from "react";
 import Text from "../../utils/CustomText";
 
-const StacksCard = ({ src, title, description, onClick }) => {
+
+const StacksCard = ({ src, title, description, duration, price, tools, image, onClick }) => {
   return (
     <section className={"stacksCard"} onClick={onClick}>
       <div>
