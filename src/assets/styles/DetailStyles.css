@@ -1,0 +1,155 @@
+.productTittle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+    .imgDoc {
+        margin-top: 50px;
+    }
+
+    .imgDoc img{
+        width:350px;
+        height:300px;
+        border-radius:20px;
+    
+    }
+
+.paragraph {
+    margin-top: 10px;
+}
+
+
+.imgDoc p {
+    width: 350px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.courseLearn {
+    font-weight: 700;
+}
+
+ .courseEntailed{
+    margin-left: 20px;
+    margin-top: 30px;
+} 
+
+.coursePrice{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.coursePrice span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.icon{
+    color: black;
+}
+
+.iconMix {
+    width: 250px; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: 1px solid #bdc5bd;
+}
+.vertical {
+    height: 60px;
+    border-left: 1px solid #bdc5bd;
+    position: absolute;
+    left: 35.5%;
+}
+
+.btnText{
+    margin-top: 5px;
+}
+
+.calText {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.downBold, .durBold, .CertificationBold{
+    font-weight: 700;
+}
+.durBold, .toolBold, .CertificationBold{
+    margin-left: 5px;
+} 
+
+.duration, .tools, .Certification{
+    display: flex;
+    margin-top: 10px;
+}
+.both {
+    display: flex;
+    align-items: center;
+}
+.toolz {
+    display: flex;
+}
+.enrolBtn, .giftBtn {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.enrolment {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.enrolBtn p, .giftBtn p{
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.enrolBtnIcon {
+    color: white;
+    margin-left: 18px;
+}
+
+.giftBtnIcon {
+    margin-left: 28px;
+}
+
+ @media screen and (min-width: 768px) {
+    .imgDoc {
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+   }
+
+   
+   .imgDoc img{
+    width:460px;
+    height:300px;
+    border-radius:20px;
+}
+
+.courseEntailed{
+    margin-left: 140px;
+    margin-top: 30px;
+} 
+
+.vertical {
+    left: 19.5%;
+}
+ }
